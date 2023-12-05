@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your MIT Educational Project</title>
+    <title>Taro BIG BONG</title>
     <style>
         body {
             margin: 0;
@@ -18,14 +18,13 @@
     </style>
 </head>
 <body>
-    <video id="background-video" autoplay loop>
-        <source src="/ogtaro.github.io/moviestream/Movies/Is/Ogtarodistructionpt1_compressed.mp4" type="video/mp4">
+    <video id="background-video" autoplay loop playsinline>
+        <source src="https://github.com/KillerRaptor/ogtaro.github.io/blob/main/moviestream/Movies/Is/Ogtarodistructionpt1_compressed.mp4?raw=true" type="video/mp4">
     </video>
 
     <script>
-        var video = document.getElementById('background-video');
-
-        video.addEventListener('ended', function() {
+        // Optionally, if you want to perform an action when the video ends
+        document.getElementById('background-video').addEventListener('ended', function() {
             // Redirect to another page or perform an action when the video ends
             window.location.href = 'https://www.youtube.com';
         });
