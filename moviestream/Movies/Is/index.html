@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your MIT Educational Projec</title>
+    <title>Your MIT Educational Project</title>
     <style>
-      body {
-        margin: 0;
-        overflow: hidden;
-      }
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
 
-      #background-video {
-        width: 100%;
-        height: 100vh;
-        object-fit: cover;
-      }
+        #background-video {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <video id="background-video" autoplay loop>
-      <!-- Replace the placeholder link with the actual link to your hosted video -->
-      <source src="https://github.com/KillerRaptor/ogtaro.github.io/blob/main/moviestream/Movies/Is/Ogtarodistructionpt1_compressed.mp4?raw=true" type="video/mp4">
+        <source src="/ogtaro.github.io/moviestream/Movies/Is/Ogtarodistructionpt1_compressed.mp4" type="video/mp4">
     </video>
+
     <script>
-      var video = document.getElementById('background-video');
-      video.addEventListener('ended', function() {
-        // Redirect to youtube.com when the video ends
-        window.location.href = 'https://www.youtube.com';
-      });
+        var video = document.getElementById('background-video');
+
+        video.addEventListener('ended', function() {
+            // Redirect to another page or perform an action when the video ends
+            window.location.href = 'https://www.youtube.com';
+        });
     </script>
-  </body>
+</body>
 </html>
