@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taro BIG BONG</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #background-video {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+    </style>
+
+<link rel="stylesheet" href="../style.css">
+    
+</head>
+<body>
+     <video src="/Users/felipeheusser/Desktop/big bong/video.mp4" autoplay poster="/Users/felipeheusser/Desktop/big bong/poster.png"></video>
+
+    <script>
+        // Optionally, if you want to perform an action when the video ends
+        document.getElementById('background-video').addEventListener('ended', function() {
+            // Redirect to another page or perform an action when the video ends
+            window.location.href = 'https://www.youtube.com';
+        });
+    </script>
+</body>
+</html>
