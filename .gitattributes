@@ -1,1 +1,2 @@
 /home/martinheusserd/gitupload/video.mp4 filter=lfs diff=lfs merge=lfs -text
+/home/martinheusserd/gitupload/ogtaro.github.io/video.mp4 filter=lfs diff=lfs merge=lfs -text
